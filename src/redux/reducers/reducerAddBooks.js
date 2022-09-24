@@ -27,7 +27,7 @@ const reducerAddBooks = (state = initialState.books, action) => {
       return state
 
     default:
-      break
+      return state
   }
 }
 
